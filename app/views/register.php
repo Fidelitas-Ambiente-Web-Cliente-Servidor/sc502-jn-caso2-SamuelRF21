@@ -10,6 +10,7 @@
         rel="stylesheet">
     <script src="public/js/jquery-4.0.0.min.js"></script>
     <script src="public/js/register.js"></script>
+    <link rel="stylesheet" href="public/css/auth.css">
 </head>
 
 <body class="container mt-5">

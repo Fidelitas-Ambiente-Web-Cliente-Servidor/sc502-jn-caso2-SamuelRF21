@@ -6,7 +6,8 @@
     <title>Admin - Solicitudes pendientes</title>
     <link rel="stylesheet" href="/public/css/style.css">
     <script src="public/js/jquery-4.0.0.min.js"></script>
-    
+     <script src="public/js/admin.js"></script>
+     
 </head>
 <body>
     <nav>

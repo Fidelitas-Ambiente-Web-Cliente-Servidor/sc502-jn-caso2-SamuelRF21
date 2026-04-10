@@ -9,6 +9,8 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
         rel="stylesheet">
     <script src="public/js/jquery-4.0.0.min.js"></script>
+      <script src="public/js/taller.js"></script>
+      <link rel="stylesheet" href="public/css/style.css">
 </head>
 
 <body class="container mt-5">
@@ -29,7 +31,20 @@
         <h3>Talleres</h3>
 
         <table class="table table-bordered">
-
+            <tr>
+               <th>#</th>
+               <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Cupo disponible</th>
+                    <th>Acción</th>
+    </tr>
+    </thead>
+    <tbody id="talleres-body">
+    <tr>
+    <td colspan="5" class="text-center">Cargando talleres...</td>
+        </tr>
+        
+    </tbody>
 
 
         </table>
